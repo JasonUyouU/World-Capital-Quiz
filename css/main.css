@@ -1,0 +1,14 @@
+body {
+	text-align: center;
+}
+p {
+	margin: 10px 10px 10px 10px;
+}
+input {
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+	text-align: center;
+}
+button {
+	margin:10px 10px 10px 10px;
+}
