@@ -5,26 +5,46 @@
 	<meta name="author" content="Jason You">
 	<meta name="description" content="Quiz App">
 	<title>World Capitals Quiz</title>
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
 	<link rel="stylesheet"
  	 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<h1>Can You Guess The Capital of These Countries?</h1>
+	<h1 class="animated slideInLeft">Can You Guess The Capital of These Countries?</h1>
 	<form>	
-		<p id="firstQ">What is the capital of Nepal?</p>
-		<p id="secondQ">What is the capital of South Korea?</p>
-		<p id="thirdQ">What is the capital of Japan?</p>
-		<p id="fourthQ">What is the capital of China?</p>
-		<input type="text" id="first">
-		<input type="text" id="second">
-		<input type="text" id="third">
-		<input type="text" id="fourth">
+		<p class="animated slideInLeft" id="firstQ">What is the capital of Nepal?</p>
+		<p class="animated fadeIn" id="secondQ">What is the capital of Afghanistan?</p>
+		<p class="animated fadeIn" id="thirdQ">What is the capital of Finland?</p>
+		<p class="animated fadeIn" id="fourthQ">What is the capital of Canada?</p>
+		<p class="animated fadeIn" id="fifthQ">What is the capital of Italy?</p>
+		<p class="animated fadeIn" id="sixthQ">What is the capital of Turkey?</p>
+		<p class="animated fadeIn" id="seventhQ">What is the capital of Switzerland?</p>
+		<p class="animated fadeIn" id="eighthQ">What is the capital of Venezuela?</p>
+		<p class="animated fadeIn" id="ninthQ">What is the capital of Vietnam?</p>
+		<p class="animated fadeIn" id="tenthQ">What is the capital of Nigeria?</p>
+		<input class="animated fadeIn" type="text" id="first">
+		<input class="animated fadeIn" type="text" id="second">
+		<input class="animated fadeIn" type="text" id="third">
+		<input class="animated fadeIn" type="text" id="fourth">
+		<input class="animated fadeIn" type="text" id="fifth">
+		<input class="animated fadeIn" type="text" id="sixth">
+		<input class="animated fadeIn" type="text" id="seventh">
+		<input class="animated fadeIn" type="text" id="eighth">
+		<input class="animated fadeIn" type="text" id="ninth">
+		<input class="animated fadeIn" type="text" id="tenth">
 		<br>
-		<button id="firstButton" type="button" onclick="submitAnswer()">Submit</button>
-		<button id="secondButton" type="button" onclick="submitAnswer2()">Submit</button>
-		<button id="thirdButton" type="button" onclick="submitAnswer3()">Submit</button>
-		<button id="fourthButton" type="button" onclick="submitAnswer4()">Submit</button>
+		<button class="animated fadeIn" id="firstButton" type="button" onclick="submitAnswer()">Submit</button>
+		<button class="animated fadeIn" id="secondButton" type="button" onclick="submitAnswer2()">Submit</button>
+		<button class="animated fadeIn" id="thirdButton" type="button" onclick="submitAnswer3()">Submit</button>
+		<button class="animated fadeIn" id="fourthButton" type="button" onclick="submitAnswer4()">Submit</button>
+		<button class="animated fadeIn" id="fifthButton" type="button" onclick="submitAnswer5()">Submit</button>
+		<button class="animated fadeIn" id="sixthButton" type="button" onclick="submitAnswer6()">Submit</button>
+		<button class="animated fadeIn" id="seventhButton" type="button" onclick="submitAnswer7()">Submit</button>
+		<button class="animated fadeIn" id="eighthButton" type="button" onclick="submitAnswer8()">Submit</button>
+		<button class="animated fadeIn" id="ninthButton" type="button" onclick="submitAnswer9()">Submit</button>
+		<button class="animated fadeIn" id="tenthButton" type="button" onclick="submitAnswer10()">Submit</button>
 	</form>
 
 	<script src="js/main.js"></script>

@@ -1,5 +1,14 @@
+* {
+	font-family: 'Limelight', cursive;
+}
 body {
 	text-align: center;
+	background-image: url(../img/background.png);8
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h1 {
+	padding-top: 5%;
 }
 p {
 	margin: 10px 10px 10px 10px;
@@ -11,4 +20,7 @@ input {
 }
 button {
 	margin:10px 10px 10px 10px;
+	padding: 7px 15px;
+	background-color: #fff;
+	border: none;
 }
